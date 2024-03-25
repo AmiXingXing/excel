@@ -3,11 +3,11 @@ import 'package:path/path.dart';
 import 'package:excel/excel.dart';
 
 void main(List<String> args) {
-  //var file = "/Users/kawal/Desktop/excel/test/test_resources/example.xlsx";
-  //var bytes = File(file).readAsBytesSync();
-  var excel = Excel.createExcel();
+  var file = "C:\\Users\\AmiXing\\Desktop\\技师.xlsx";
+  var bytes = File(file).readAsBytesSync();
+  // var excel = Excel.createExcel();
   // or
-  //var excel = Excel.decodeBytes(bytes);
+  var excel = Excel.decodeBytes(bytes);
 
   ///
   ///

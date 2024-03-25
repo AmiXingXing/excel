@@ -1,13 +1,16 @@
 name: excel
-description: A flutter and dart library for reading, creating, editing and updating excel sheets with compatible both on client and server side.
-version: 4.0.2
-homepage: https://github.com/justkawal/excel
+description: fix:忽略解析错误，A flutter and dart library for reading, creating, editing and updating excel sheets with compatible both on client and server side.
+version: 4.0.3
+homepage: https://github.com/AmiXingXing/excel.git
+publish_to: http://101.132.130.175:4000/
 topics:
   - excel
   - office
   - storage
   - sheets
   - spreadsheet
+
+# 提交 flutter packages pub publish --server=http://101.132.130.175:4000/
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
